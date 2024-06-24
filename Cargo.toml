@@ -9,5 +9,7 @@ edition = "2021"
 derivative = "2"
 rand = "0.4"
 
-rescue_poseidon = {git = "https://github.com/matter-labs/rescue-poseidon.git", branch = "poseidon2"}
+# TODO: change to use matter-labs when everything is merged:
+# rescue_poseidon = {git = "https://github.com/matter-labs/rescue-poseidon.git", branch = "poseidon2"}
+rescue_poseidon = {git = "https://github.com/distributed-lab/rescue-poseidon", branch = "feature/ec-and-modexp-precompiles"}
 # rescue_poseidon = {path = "../rescue-poseidon"}
